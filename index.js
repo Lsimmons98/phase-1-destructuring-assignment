@@ -1,10 +1,12 @@
 const farmAnimals = 'cow horse sheep pig chicken';
 
-const [moo, neigh, baa, oink, cluck] = farmAnimals.split(" ")
+const farmAnimalsArray = farmAnimals.split(' ')
 
-const [bessie,, dolly, babe, little] = farmAnimals.split(" ")
+const [moo, neigh, baa, oink, cluck] = farmAnimalsArray
 
-const [blackAndWhite,, black, pink,] = farmAnimals.split(" ")
+const [bessie,, dolly, babe, little] = farmAnimalsArray
+
+const [blackAndWhite,, black, pink,] = farmAnimalsArray
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
@@ -12,7 +14,7 @@ const [red, orange, yellow, green, blue, indigo, violet] = colors
 
 const [r, o, y, g, b,, v] = colors
 
-const indg = colors[5]
+const [, , , , , indg] = colors
 
 const muppet = {
   muppetName: 'Miss Piggy',
